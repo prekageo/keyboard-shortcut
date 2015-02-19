@@ -1,0 +1,29 @@
+{
+  "name": "keyboard-shortcut",
+  "title": "Keyboard Shortcut",
+  "id": "jid1-7v7ftd80jxHyGA",
+  "description": "Open a webpage by pressing a keyboard shortcut, e.g. CTRL-K for your search engine webpage.",
+  "author": "",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "preferences": [
+    {
+      "name": "combo",
+      "title": "Keyboard shortcut",
+      "type": "string",
+      "value": "accel-k"
+    },
+    {
+      "name": "url",
+      "title": "URL",
+      "type": "string",
+      "value": "https://www.google.com/"
+    },
+    {
+      "name": "newTab",
+      "title": "Open in new tab",
+      "type": "bool",
+      "value": false
+    }
+  ]
+}
